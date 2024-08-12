@@ -26,3 +26,15 @@ Ensure the following are installed on your system:
    ```bash
    git clone https://your-repo-url.git
    cd your-repo-directory
+
+2. **Run the Setup.sh File**
+   Make the setup.sh script executable by running:
+
+   ```bash
+   chmod +x setup.sh
+
+Run the the following file
+   ```bash
+   ./setup.sh
+   
+   
