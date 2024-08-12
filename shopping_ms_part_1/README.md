@@ -1,37 +1,28 @@
-Microservices Project Setup
+# Microservices Project Setup
+
 This project consists of multiple microservices, each contained in its own directory. The current microservices are:
 
-products
-shopping
-customer
-Project Setup Instructions
-To streamline the setup process, a shell script (setup.sh) is provided. This script will automatically create the necessary folders, initialize each microservice with npm, and install the required dependencies.
+- `products`
+- `shopping`
+- `customer`
 
-Prerequisites
-Make sure you have the following installed on your system:
+## Project Setup
 
-Node.js (v14 or above)
-npm
-Setup Steps
-Clone the Repository
+To streamline the setup process, a shell script (`setup.sh`) is provided. This script will automatically create the necessary folders, initialize each microservice with npm, and install the required dependencies.
 
-First, clone this repository to your local machine.
+### Prerequisites
 
-bash
-Copy code
-git clone https://your-repo-url.git
-cd your-repo-directory
-Make the setup.sh Script Executable
+Ensure the following are installed on your system:
 
-Before running the setup script, you'll need to make it executable. Run the following command:
+- [Node.js](https://nodejs.org/) (v14 or above)
+- [npm](https://www.npmjs.com/)
 
-bash
-Copy code
-chmod +x setup.sh
-Run the Setup Script
+### Setup Instructions
 
-Now, run the setup script to initialize the project and install dependencies for each microservice:
+1. **Clone the Repository**
 
-bash
-Copy code
-./setup.sh
+   Clone this repository to your local machine:
+
+   ```bash
+   git clone https://your-repo-url.git
+   cd your-repo-directory
