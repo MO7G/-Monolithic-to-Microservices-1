@@ -1,5 +1,22 @@
 #!/bin/bash
 
+# Function to check if a command exists
+command_exists() {
+  command -v "$1" &> /dev/null
+}
+
+# Check if Node.js is installed
+if ! command_exists node; then
+  echo "Node.js is not installed. Please install Node.js before running this script."
+  exit 1
+fi
+
+# Check if npm is installed
+if ! command_exists npm; then
+  echo "npm is not installed. Please install npm before running this script."
+  exit 1
+fi
+
 # Define your microservices
 services=("products" "shopping" "customer")
 
