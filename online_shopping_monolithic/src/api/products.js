@@ -64,6 +64,7 @@ module.exports = (app) => {
        
     });
      
+
     app.put('/wishlist',UserAuth, async (req,res,next) => {
 
         const { _id } = req.user;
